@@ -15,6 +15,10 @@
     tools:context=".MainActivity"
     android:weightSum="1">
 
+<com.mycompany.pop.heart
+    android:layout_width="369dp"
+    android:layout_height="334dp"
+    android:layout_weight="0.04" />
 
     <Button
         android:id="@+id/gobutton"
