@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pop</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_pdf">PDF</string>
+    <string name="title_activity_changepassword">Changepassword</string>
+</resources>
