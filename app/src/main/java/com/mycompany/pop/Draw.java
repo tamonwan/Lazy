@@ -61,8 +61,6 @@ public class Draw extends AppCompatActivity {
             }
         }
 
-
-
         public void setPaint(){
             paint.setStyle(Paint.Style.FILL);
             paint.setColor(Color.BLACK);
