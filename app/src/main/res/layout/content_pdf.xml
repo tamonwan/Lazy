@@ -45,6 +45,15 @@
         android:layout_gravity="right" />
 
     <Button
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:text="draw"
+        android:id="@+id/drawbutton"
+        android:onClick="draw"
+        android:layout_below="@+id/namelist"
+        android:layout_gravity="right" />
+
+    <Button
         android:id="@+id/logoutbutton"
         android:text="log out"
         android:layout_height="wrap_content"

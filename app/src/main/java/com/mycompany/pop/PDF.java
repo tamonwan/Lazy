@@ -89,6 +89,10 @@ public class PDF extends AppCompatActivity {
         startActivity(new Intent(PDF.this, MainActivity.class));
     }
 
+    public void draw(View view){
+        startActivity(new Intent(PDF.this, Draw.class));
+    }
+
     public void post(View view){
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
