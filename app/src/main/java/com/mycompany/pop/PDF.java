@@ -40,6 +40,8 @@ public class PDF extends AppCompatActivity {
         final ListView listview = (ListView) findViewById(R.id.namelist);
         final ListView postlist = (ListView) findViewById(R.id.postlist);
 
+        final ArrayList<String> everypost = new ArrayList<String>();
+
         query.findInBackground(new FindCallback<ParseUser>() {
             public void done(List<ParseUser> objects, ParseException e) {
                 if (e == null) {
@@ -55,6 +57,7 @@ public class PDF extends AppCompatActivity {
                         }
                         list.add(nameonline);
                         posts.add(objects.get(i).get("post")+"");
+                        everypost.add(objects.get(i).get("post")+"");
                     }
                     final ArrayAdapter adapter = new ArrayAdapter(PDF.this, android.R.layout.simple_list_item_1, list);
                     final ArrayAdapter postadapter = new ArrayAdapter(PDF.this, android.R.layout.simple_list_item_1, posts);
@@ -80,6 +83,7 @@ public class PDF extends AppCompatActivity {
                 recreate();
             }
         });
+
     }
 
     public void logout(View view){

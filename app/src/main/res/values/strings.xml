@@ -5,4 +5,5 @@
     <string name="title_activity_pdf">PDF</string>
     <string name="title_activity_changepassword">Changepassword</string>
     <string name="title_activity_draw">Draw</string>
+    <string name="title_activity_login">Login</string>
 </resources>

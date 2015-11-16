@@ -13,50 +13,14 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_main"
     tools:context=".MainActivity">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Username"
-        android:layout_marginTop="70dp" />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_marginBottom="10dp"
-        android:id="@+id/username"
-        android:layout_height="wrap_content"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Password"
-        />
-
-    <EditText
-        android:inputType="textPassword"
-        android:layout_width="match_parent"
-        android:layout_marginBottom="10dp"
-        android:id="@+id/password"
-        android:layout_height="wrap_content"
-        android:password="true" />
 
     <Button
-        android:id="@+id/loginbutton"
-        android:text="Login"
+        android:id="@+id/gobutton"
+        android:text="go"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        />
-    <Button
-        android:id="@+id/registerbutton"
-        android:text="Register"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
+        android:onClick="go"
         />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="forget password?"
-        android:id="@+id/changepassword"
-        android:onClick="change"
-        android:layout_gravity="center_horizontal" />
+
 </LinearLayout>
