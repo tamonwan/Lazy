@@ -72,7 +72,7 @@ public class Draw extends AppCompatActivity {
             tempPy = e.getY();
             pointX.add(tempPx);
             pointY.add(tempPy);
-            
+
 
             switch(e.getAction()){
                 case MotionEvent.ACTION_DOWN:
