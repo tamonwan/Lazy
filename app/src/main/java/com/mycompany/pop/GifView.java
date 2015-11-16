@@ -20,7 +20,6 @@ public class GifView extends View{
         super(context);
         is = context.getResources().openRawResource(+R.drawable.giphy);
         movie = Movie.decodeStream(is);
-
     }
 
     @Override
