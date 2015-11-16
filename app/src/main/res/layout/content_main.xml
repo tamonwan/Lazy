@@ -15,10 +15,6 @@
     tools:context=".MainActivity"
     android:weightSum="1">
 
-    <com.mycompany.pop.GifView
-        android:layout_width="358dp"
-        android:layout_height="300dp"
-        android:layout_weight="0.61" />
 
     <Button
         android:id="@+id/gobutton"
@@ -27,5 +23,6 @@
         android:layout_width="match_parent"
         android:onClick="go"
         />
+
 
 </LinearLayout>

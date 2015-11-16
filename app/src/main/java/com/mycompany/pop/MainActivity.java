@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
         new GifView(this);
         setContentView(R.layout.activity_main);
 
-
     }
 
     public void go(View view){
