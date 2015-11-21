@@ -35,7 +35,7 @@ public class heart extends View {
 
         super.onDraw(canvas);
 
-        is = getResources().openRawResource(+R.drawable.lazy);
+        is = getResources().openRawResource(+R.drawable.forwardrun);
         movie = Movie.decodeStream(is);
 
         long now=android.os.SystemClock.uptimeMillis();
